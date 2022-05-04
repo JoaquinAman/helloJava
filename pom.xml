@@ -8,6 +8,12 @@
     <artifactId>helloJava</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+         <scm>
+                  <developerConnection>scm:git:https://github.com/JoaquinAman/helloJava.git/</developerConnection>
+                  <url>https://github.com/JoaquinAman/helloJava</url>
+                  <tag>HEAD</tag>
+         </scm>
+         
          <profiles>
   <profile>
     <id>github-actions</id>
@@ -57,6 +63,7 @@
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
+          <project.scm.id>github</project.scm.id>
     </properties>
 
          <build>
